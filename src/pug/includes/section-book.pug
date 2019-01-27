@@ -1,0 +1,33 @@
+section.section-book(data-aos="fade-right" data-aos-delay="100")
+	.row
+		.book
+			.book__form
+				form.form(action='#')
+					.u-margin-bottom-medium
+						h2.heading-secondary
+							| Start booking now
+					.form__group
+						input#name.form__input(type='text', placeholder='Full name', required='')
+						label.form__label(for='name') Full name
+					.form__group
+						input#email.form__input(type='email', placeholder='Email address', required='')
+						label.form__label(for='email') Email address
+
+					.form__group.u-margin-bottom-big
+						.form__radio-group
+							input#small.form__radio-input(type='radio', name='size')
+							label.form__radio-label(for='small')
+								|	Small tour group
+								span.form__radio-button
+						.form__radio-group
+							input#large.form__radio-input(type='radio', name='size')
+							label.form__radio-label(for='large')
+								| Large tour group
+								span.form__radio-button
+
+					.form__group
+						button.btn.btn--green Next step &rarr;
+
+
+
+					
